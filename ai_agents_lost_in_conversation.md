@@ -1,5 +1,7 @@
 # AI Agents & The Lost in Conversation Phenomenon
 
+![Lost in Conversation Header](images/2026-05-05_10-33-43.jpg)
+
 *A new study from Microsoft Research and Salesforce Research quietly demolishes one of the more comfortable assumptions in agentic AI*
 
 ![Lost in Conversation Header](images/lost-in-conversation-header.jpg)
@@ -42,7 +44,6 @@ The **gradual sharding experiment** shows the cliff happens between turn 1 and t
 
 The **loss-in-middle-turns observation**, finds that models attending to multi-turn context cite information from the first and last turns disproportionately, and quietly forget the middle. This is the same shape described in *Lost in the Middle* for long-context retrieval, just expressed across turns instead of across tokens.
 
-![Attention Across a Conversation](images/attention-across-conversation.jpg)
 
 That last point is the one I keep coming back to. The same attentional bias, anchor on the edges, lose the middle, appears at the token scale within a single forward pass and at the turn scale across a conversation. It is the same failure mode wearing two different costumes.
 
