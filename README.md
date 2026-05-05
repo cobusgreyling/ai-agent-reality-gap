@@ -1,6 +1,7 @@
 # AI Agents & The Lost in Conversation Phenomenon
 
-![Lost in Conversation Header](images/lost-in-conversation-header.jpg)
+![Lost in Conversation Header](images/2026-05-05_10-33-43.jpg)
+
 
 A new study from Microsoft Research and Salesforce Research quietly demolishes one of the more comfortable assumptions in agentic AI — that we can compensate for fragile models by building cleverer orchestration around them.
 
@@ -11,6 +12,9 @@ This is a finding about agents. An agent is, by construction, a multi-turn conve
 Production harness strategies (RECAP, SNOWBALL) recover only 15–20% of the lost performance. There is a ceiling on what scaffolding can fix.
 
 Read the full blog post: [ai_agents_lost_in_conversation.md](ai_agents_lost_in_conversation.md)
+
+![Lost in Conversation Header](images/lost-in-conversation-header.jpg)
+
 
 ## Author
 
