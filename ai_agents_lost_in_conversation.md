@@ -4,8 +4,6 @@
 
 *A new study from Microsoft Research and Salesforce Research quietly demolishes one of the more comfortable assumptions in agentic AI*
 
-![Lost in Conversation Header](images/lost-in-conversation-header.jpg)
-
 ## When Agents Get Lost And Why the Harness Can Only Patch So Much
 
 We can compensate for fragile models by building cleverer orchestration around them. Up to a point. After that, we are pushing on the wrong layer.
@@ -31,6 +29,10 @@ This is a finding about agents, even though the paper does not foreground it tha
 ## This Lands Squarely on Agents
 
 An agent is, by construction, a multi-turn conversation the model has with itself and its tools. A ReAct loop…observation, thought, action, observation …is a sharded conversation. A planner-executor architecture distributes information across steps. A tool call returns a result that arrives, in effect, as a new turn. Every retrieval, every search, every API response is information delivered piece by piece.
+
+
+![Lost in Conversation Header](images/lost-in-conversation-header.jpg)
+
 
 The solution? **Aggressive consolidation, plus restart.**
 
